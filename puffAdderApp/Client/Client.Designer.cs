@@ -205,7 +205,7 @@
             this.tableLayoutPanel2.Controls.Add(this.menuStrip1, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
@@ -225,7 +225,7 @@
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel4, 0, 3);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(590, 76);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 4;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
@@ -240,11 +240,11 @@
             this.label16.AutoSize = true;
             this.label16.BackColor = System.Drawing.Color.Gainsboro;
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label16.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label16.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label16.Location = new System.Drawing.Point(2, 296);
             this.label16.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label16.Name = "label16";
-            this.label16.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label16.Padding = new System.Windows.Forms.Padding(1);
             this.label16.Size = new System.Drawing.Size(247, 31);
             this.label16.TabIndex = 7;
             this.label16.Text = "⊙ Progress";
@@ -255,11 +255,11 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Gainsboro;
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label11.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label11.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label11.Location = new System.Drawing.Point(2, 1);
             this.label11.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label11.Name = "label11";
-            this.label11.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label11.Padding = new System.Windows.Forms.Padding(1);
             this.label11.Size = new System.Drawing.Size(247, 31);
             this.label11.TabIndex = 6;
             this.label11.Text = "⊙ Console";
@@ -285,7 +285,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 4F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 4F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 5F));
             this.tableLayoutPanel4.Controls.Add(this.panel12, 2, 2);
             this.tableLayoutPanel4.Controls.Add(this.progressBarMain, 1, 1);
             this.tableLayoutPanel4.Controls.Add(this.lblProgTitle, 1, 0);
@@ -293,7 +293,7 @@
             this.tableLayoutPanel4.Controls.Add(this.panel11, 1, 2);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(2, 329);
-            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 4;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
@@ -321,7 +321,7 @@
             this.textProgTempDate.Enabled = false;
             this.textProgTempDate.Font = new System.Drawing.Font("나눔고딕", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textProgTempDate.Location = new System.Drawing.Point(134, 2);
-            this.textProgTempDate.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textProgTempDate.Margin = new System.Windows.Forms.Padding(1);
             this.textProgTempDate.Name = "textProgTempDate";
             this.textProgTempDate.Size = new System.Drawing.Size(64, 20);
             this.textProgTempDate.TabIndex = 2;
@@ -332,7 +332,7 @@
             this.textProgTempPage.Enabled = false;
             this.textProgTempPage.Font = new System.Drawing.Font("나눔고딕", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textProgTempPage.Location = new System.Drawing.Point(103, 2);
-            this.textProgTempPage.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textProgTempPage.Margin = new System.Windows.Forms.Padding(1);
             this.textProgTempPage.Name = "textProgTempPage";
             this.textProgTempPage.Size = new System.Drawing.Size(28, 20);
             this.textProgTempPage.TabIndex = 1;
@@ -356,7 +356,7 @@
             this.tableLayoutPanel4.SetColumnSpan(this.progressBarMain, 2);
             this.progressBarMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.progressBarMain.Location = new System.Drawing.Point(5, 23);
-            this.progressBarMain.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.progressBarMain.Margin = new System.Windows.Forms.Padding(1);
             this.progressBarMain.Name = "progressBarMain";
             this.progressBarMain.Size = new System.Drawing.Size(236, 16);
             this.progressBarMain.TabIndex = 0;
@@ -405,7 +405,7 @@
             this.textProgCateName.Enabled = false;
             this.textProgCateName.Font = new System.Drawing.Font("나눔고딕", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textProgCateName.Location = new System.Drawing.Point(129, 2);
-            this.textProgCateName.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textProgCateName.Margin = new System.Windows.Forms.Padding(1);
             this.textProgCateName.Name = "textProgCateName";
             this.textProgCateName.Size = new System.Drawing.Size(68, 20);
             this.textProgCateName.TabIndex = 2;
@@ -416,7 +416,7 @@
             this.textProgCateCode.Enabled = false;
             this.textProgCateCode.Font = new System.Drawing.Font("나눔고딕", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textProgCateCode.Location = new System.Drawing.Point(72, 2);
-            this.textProgCateCode.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textProgCateCode.Margin = new System.Windows.Forms.Padding(1);
             this.textProgCateCode.Name = "textProgCateCode";
             this.textProgCateCode.Size = new System.Drawing.Size(55, 20);
             this.textProgCateCode.TabIndex = 1;
@@ -455,7 +455,7 @@
             this.tableLayoutPanel5.Controls.Add(this.panel8, 2, 3);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(1, 76);
-            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 4;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
@@ -491,7 +491,7 @@
             this.tableLayoutPanel6.Controls.Add(this.panel22, 1, 4);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(392, 34);
-            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 16;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
@@ -529,7 +529,7 @@
             "중국-상해",
             "홍콩"});
             this.cmbSelectIndex.Location = new System.Drawing.Point(80, 1);
-            this.cmbSelectIndex.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbSelectIndex.Margin = new System.Windows.Forms.Padding(1);
             this.cmbSelectIndex.Name = "cmbSelectIndex";
             this.cmbSelectIndex.Size = new System.Drawing.Size(120, 22);
             this.cmbSelectIndex.TabIndex = 39;
@@ -566,7 +566,7 @@
             this.chkAuto3.Enabled = false;
             this.chkAuto3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.chkAuto3.Location = new System.Drawing.Point(18, 6);
-            this.chkAuto3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.chkAuto3.Margin = new System.Windows.Forms.Padding(1);
             this.chkAuto3.Name = "chkAuto3";
             this.chkAuto3.Size = new System.Drawing.Size(101, 18);
             this.chkAuto3.TabIndex = 31;
@@ -610,7 +610,7 @@
             "120",
             "240"});
             this.cmbSaveIntv3.Location = new System.Drawing.Point(4, 4);
-            this.cmbSaveIntv3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbSaveIntv3.Margin = new System.Windows.Forms.Padding(1);
             this.cmbSaveIntv3.Name = "cmbSaveIntv3";
             this.cmbSaveIntv3.Size = new System.Drawing.Size(55, 22);
             this.cmbSaveIntv3.TabIndex = 35;
@@ -632,7 +632,7 @@
             this.rdoSaveClsfByTime3.Enabled = false;
             this.rdoSaveClsfByTime3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoSaveClsfByTime3.Location = new System.Drawing.Point(63, 5);
-            this.rdoSaveClsfByTime3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoSaveClsfByTime3.Margin = new System.Windows.Forms.Padding(1);
             this.rdoSaveClsfByTime3.Name = "rdoSaveClsfByTime3";
             this.rdoSaveClsfByTime3.Size = new System.Drawing.Size(58, 18);
             this.rdoSaveClsfByTime3.TabIndex = 15;
@@ -645,7 +645,7 @@
             this.rdoSaveClsfByDate3.Checked = true;
             this.rdoSaveClsfByDate3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoSaveClsfByDate3.Location = new System.Drawing.Point(4, 5);
-            this.rdoSaveClsfByDate3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoSaveClsfByDate3.Margin = new System.Windows.Forms.Padding(1);
             this.rdoSaveClsfByDate3.Name = "rdoSaveClsfByDate3";
             this.rdoSaveClsfByDate3.Size = new System.Drawing.Size(47, 18);
             this.rdoSaveClsfByDate3.TabIndex = 0;
@@ -696,7 +696,7 @@
             this.textToPage3.BackColor = System.Drawing.Color.White;
             this.textToPage3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textToPage3.Location = new System.Drawing.Point(178, 4);
-            this.textToPage3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textToPage3.Margin = new System.Windows.Forms.Padding(1);
             this.textToPage3.Name = "textToPage3";
             this.textToPage3.Size = new System.Drawing.Size(39, 21);
             this.textToPage3.TabIndex = 16;
@@ -707,7 +707,7 @@
             this.textToDate3.Enabled = false;
             this.textToDate3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textToDate3.Location = new System.Drawing.Point(54, 4);
-            this.textToDate3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textToDate3.Margin = new System.Windows.Forms.Padding(1);
             this.textToDate3.Name = "textToDate3";
             this.textToDate3.Size = new System.Drawing.Size(64, 21);
             this.textToDate3.TabIndex = 14;
@@ -720,7 +720,7 @@
             this.textLastDate3.Enabled = false;
             this.textLastDate3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textLastDate3.Location = new System.Drawing.Point(80, 55);
-            this.textLastDate3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textLastDate3.Margin = new System.Windows.Forms.Padding(1);
             this.textLastDate3.Name = "textLastDate3";
             this.textLastDate3.Size = new System.Drawing.Size(64, 21);
             this.textLastDate3.TabIndex = 26;
@@ -747,7 +747,7 @@
             this.buttonByIndex.Dock = System.Windows.Forms.DockStyle.Left;
             this.buttonByIndex.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonByIndex.Location = new System.Drawing.Point(80, 190);
-            this.buttonByIndex.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonByIndex.Margin = new System.Windows.Forms.Padding(1);
             this.buttonByIndex.Name = "buttonByIndex";
             this.buttonByIndex.Size = new System.Drawing.Size(88, 25);
             this.buttonByIndex.TabIndex = 14;
@@ -820,7 +820,7 @@
             "재무상태",
             "투자지표"});
             this.cmbInfo3.Location = new System.Drawing.Point(80, 28);
-            this.cmbInfo3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbInfo3.Margin = new System.Windows.Forms.Padding(1);
             this.cmbInfo3.Name = "cmbInfo3";
             this.cmbInfo3.Size = new System.Drawing.Size(82, 22);
             this.cmbInfo3.TabIndex = 20;
@@ -844,7 +844,7 @@
             this.textFromPage3.BackColor = System.Drawing.Color.White;
             this.textFromPage3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textFromPage3.Location = new System.Drawing.Point(178, 4);
-            this.textFromPage3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textFromPage3.Margin = new System.Windows.Forms.Padding(1);
             this.textFromPage3.Name = "textFromPage3";
             this.textFromPage3.Size = new System.Drawing.Size(39, 21);
             this.textFromPage3.TabIndex = 16;
@@ -856,7 +856,7 @@
             this.rdoFromPage3.Checked = true;
             this.rdoFromPage3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoFromPage3.Location = new System.Drawing.Point(129, 5);
-            this.rdoFromPage3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoFromPage3.Margin = new System.Windows.Forms.Padding(1);
             this.rdoFromPage3.Name = "rdoFromPage3";
             this.rdoFromPage3.Size = new System.Drawing.Size(53, 18);
             this.rdoFromPage3.TabIndex = 15;
@@ -871,7 +871,7 @@
             this.textFromDate3.Enabled = false;
             this.textFromDate3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textFromDate3.Location = new System.Drawing.Point(54, 4);
-            this.textFromDate3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textFromDate3.Margin = new System.Windows.Forms.Padding(1);
             this.textFromDate3.Name = "textFromDate3";
             this.textFromDate3.Size = new System.Drawing.Size(64, 21);
             this.textFromDate3.TabIndex = 14;
@@ -883,7 +883,7 @@
             this.rdoFromDate3.Enabled = false;
             this.rdoFromDate3.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoFromDate3.Location = new System.Drawing.Point(4, 5);
-            this.rdoFromDate3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoFromDate3.Margin = new System.Windows.Forms.Padding(1);
             this.rdoFromDate3.Name = "rdoFromDate3";
             this.rdoFromDate3.Size = new System.Drawing.Size(52, 18);
             this.rdoFromDate3.TabIndex = 0;
@@ -917,7 +917,7 @@
             this.tableLayoutPanel1.Controls.Add(this.panel16, 1, 4);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(197, 34);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 16;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
@@ -957,7 +957,7 @@
             this.rdoKosdaq.AutoSize = true;
             this.rdoKosdaq.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoKosdaq.Location = new System.Drawing.Point(118, 5);
-            this.rdoKosdaq.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoKosdaq.Margin = new System.Windows.Forms.Padding(1);
             this.rdoKosdaq.Name = "rdoKosdaq";
             this.rdoKosdaq.Size = new System.Drawing.Size(58, 18);
             this.rdoKosdaq.TabIndex = 16;
@@ -969,7 +969,7 @@
             this.rdoKospi.AutoSize = true;
             this.rdoKospi.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoKospi.Location = new System.Drawing.Point(56, 5);
-            this.rdoKospi.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoKospi.Margin = new System.Windows.Forms.Padding(1);
             this.rdoKospi.Name = "rdoKospi";
             this.rdoKospi.Size = new System.Drawing.Size(58, 18);
             this.rdoKospi.TabIndex = 15;
@@ -982,7 +982,7 @@
             this.rdoAllMarket.Checked = true;
             this.rdoAllMarket.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoAllMarket.Location = new System.Drawing.Point(4, 5);
-            this.rdoAllMarket.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoAllMarket.Margin = new System.Windows.Forms.Padding(1);
             this.rdoAllMarket.Name = "rdoAllMarket";
             this.rdoAllMarket.Size = new System.Drawing.Size(47, 18);
             this.rdoAllMarket.TabIndex = 0;
@@ -1022,7 +1022,7 @@
             this.chkAuto2.Enabled = false;
             this.chkAuto2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.chkAuto2.Location = new System.Drawing.Point(18, 6);
-            this.chkAuto2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.chkAuto2.Margin = new System.Windows.Forms.Padding(1);
             this.chkAuto2.Name = "chkAuto2";
             this.chkAuto2.Size = new System.Drawing.Size(101, 18);
             this.chkAuto2.TabIndex = 31;
@@ -1066,7 +1066,7 @@
             "120",
             "240"});
             this.cmbSaveIntv2.Location = new System.Drawing.Point(4, 4);
-            this.cmbSaveIntv2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbSaveIntv2.Margin = new System.Windows.Forms.Padding(1);
             this.cmbSaveIntv2.Name = "cmbSaveIntv2";
             this.cmbSaveIntv2.Size = new System.Drawing.Size(55, 22);
             this.cmbSaveIntv2.TabIndex = 35;
@@ -1088,7 +1088,7 @@
             this.rdoSaveClsfByTime2.Enabled = false;
             this.rdoSaveClsfByTime2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoSaveClsfByTime2.Location = new System.Drawing.Point(63, 5);
-            this.rdoSaveClsfByTime2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoSaveClsfByTime2.Margin = new System.Windows.Forms.Padding(1);
             this.rdoSaveClsfByTime2.Name = "rdoSaveClsfByTime2";
             this.rdoSaveClsfByTime2.Size = new System.Drawing.Size(58, 18);
             this.rdoSaveClsfByTime2.TabIndex = 15;
@@ -1101,7 +1101,7 @@
             this.rdoSaveClsfByDate2.Checked = true;
             this.rdoSaveClsfByDate2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoSaveClsfByDate2.Location = new System.Drawing.Point(4, 5);
-            this.rdoSaveClsfByDate2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoSaveClsfByDate2.Margin = new System.Windows.Forms.Padding(1);
             this.rdoSaveClsfByDate2.Name = "rdoSaveClsfByDate2";
             this.rdoSaveClsfByDate2.Size = new System.Drawing.Size(47, 18);
             this.rdoSaveClsfByDate2.TabIndex = 0;
@@ -1152,7 +1152,7 @@
             this.textToPage2.BackColor = System.Drawing.Color.White;
             this.textToPage2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textToPage2.Location = new System.Drawing.Point(178, 4);
-            this.textToPage2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textToPage2.Margin = new System.Windows.Forms.Padding(1);
             this.textToPage2.Name = "textToPage2";
             this.textToPage2.Size = new System.Drawing.Size(39, 21);
             this.textToPage2.TabIndex = 16;
@@ -1163,7 +1163,7 @@
             this.textToDate2.Enabled = false;
             this.textToDate2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textToDate2.Location = new System.Drawing.Point(54, 4);
-            this.textToDate2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textToDate2.Margin = new System.Windows.Forms.Padding(1);
             this.textToDate2.Name = "textToDate2";
             this.textToDate2.Size = new System.Drawing.Size(64, 21);
             this.textToDate2.TabIndex = 14;
@@ -1176,7 +1176,7 @@
             this.textLastDate2.Enabled = false;
             this.textLastDate2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textLastDate2.Location = new System.Drawing.Point(80, 55);
-            this.textLastDate2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textLastDate2.Margin = new System.Windows.Forms.Padding(1);
             this.textLastDate2.Name = "textLastDate2";
             this.textLastDate2.Size = new System.Drawing.Size(64, 21);
             this.textLastDate2.TabIndex = 26;
@@ -1203,7 +1203,7 @@
             this.buttonByMarket.Dock = System.Windows.Forms.DockStyle.Left;
             this.buttonByMarket.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonByMarket.Location = new System.Drawing.Point(80, 190);
-            this.buttonByMarket.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonByMarket.Margin = new System.Windows.Forms.Padding(1);
             this.buttonByMarket.Name = "buttonByMarket";
             this.buttonByMarket.Size = new System.Drawing.Size(88, 25);
             this.buttonByMarket.TabIndex = 14;
@@ -1277,7 +1277,7 @@
             "재무상태",
             "투자지표"});
             this.cmbInfo2.Location = new System.Drawing.Point(80, 28);
-            this.cmbInfo2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbInfo2.Margin = new System.Windows.Forms.Padding(1);
             this.cmbInfo2.Name = "cmbInfo2";
             this.cmbInfo2.Size = new System.Drawing.Size(82, 22);
             this.cmbInfo2.TabIndex = 20;
@@ -1301,7 +1301,7 @@
             this.textFromPage2.BackColor = System.Drawing.Color.White;
             this.textFromPage2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textFromPage2.Location = new System.Drawing.Point(178, 4);
-            this.textFromPage2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textFromPage2.Margin = new System.Windows.Forms.Padding(1);
             this.textFromPage2.Name = "textFromPage2";
             this.textFromPage2.Size = new System.Drawing.Size(39, 21);
             this.textFromPage2.TabIndex = 16;
@@ -1313,7 +1313,7 @@
             this.rdoFromPage2.Checked = true;
             this.rdoFromPage2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoFromPage2.Location = new System.Drawing.Point(129, 5);
-            this.rdoFromPage2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoFromPage2.Margin = new System.Windows.Forms.Padding(1);
             this.rdoFromPage2.Name = "rdoFromPage2";
             this.rdoFromPage2.Size = new System.Drawing.Size(53, 18);
             this.rdoFromPage2.TabIndex = 15;
@@ -1328,7 +1328,7 @@
             this.textFromDate2.Enabled = false;
             this.textFromDate2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textFromDate2.Location = new System.Drawing.Point(54, 4);
-            this.textFromDate2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textFromDate2.Margin = new System.Windows.Forms.Padding(1);
             this.textFromDate2.Name = "textFromDate2";
             this.textFromDate2.Size = new System.Drawing.Size(64, 21);
             this.textFromDate2.TabIndex = 14;
@@ -1340,7 +1340,7 @@
             this.rdoFromDate2.Enabled = false;
             this.rdoFromDate2.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoFromDate2.Location = new System.Drawing.Point(4, 5);
-            this.rdoFromDate2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoFromDate2.Margin = new System.Windows.Forms.Padding(1);
             this.rdoFromDate2.Name = "rdoFromDate2";
             this.rdoFromDate2.Size = new System.Drawing.Size(52, 18);
             this.rdoFromDate2.TabIndex = 0;
@@ -1374,7 +1374,7 @@
             this.tableLayoutPanel8.Controls.Add(this.panel1, 1, 4);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(2, 34);
-            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 16;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
@@ -1428,7 +1428,7 @@
             this.chkAuto1.Enabled = false;
             this.chkAuto1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.chkAuto1.Location = new System.Drawing.Point(18, 6);
-            this.chkAuto1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.chkAuto1.Margin = new System.Windows.Forms.Padding(1);
             this.chkAuto1.Name = "chkAuto1";
             this.chkAuto1.Size = new System.Drawing.Size(101, 18);
             this.chkAuto1.TabIndex = 31;
@@ -1472,7 +1472,7 @@
             "120",
             "240"});
             this.cmbSaveIntv1.Location = new System.Drawing.Point(4, 4);
-            this.cmbSaveIntv1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbSaveIntv1.Margin = new System.Windows.Forms.Padding(1);
             this.cmbSaveIntv1.Name = "cmbSaveIntv1";
             this.cmbSaveIntv1.Size = new System.Drawing.Size(55, 22);
             this.cmbSaveIntv1.TabIndex = 35;
@@ -1494,7 +1494,7 @@
             this.rdoSaveClsfByTime1.Enabled = false;
             this.rdoSaveClsfByTime1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoSaveClsfByTime1.Location = new System.Drawing.Point(63, 5);
-            this.rdoSaveClsfByTime1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoSaveClsfByTime1.Margin = new System.Windows.Forms.Padding(1);
             this.rdoSaveClsfByTime1.Name = "rdoSaveClsfByTime1";
             this.rdoSaveClsfByTime1.Size = new System.Drawing.Size(58, 18);
             this.rdoSaveClsfByTime1.TabIndex = 15;
@@ -1507,7 +1507,7 @@
             this.rdoSaveClsfByDate1.Checked = true;
             this.rdoSaveClsfByDate1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoSaveClsfByDate1.Location = new System.Drawing.Point(4, 5);
-            this.rdoSaveClsfByDate1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoSaveClsfByDate1.Margin = new System.Windows.Forms.Padding(1);
             this.rdoSaveClsfByDate1.Name = "rdoSaveClsfByDate1";
             this.rdoSaveClsfByDate1.Size = new System.Drawing.Size(47, 18);
             this.rdoSaveClsfByDate1.TabIndex = 0;
@@ -1558,7 +1558,7 @@
             this.textToPage1.BackColor = System.Drawing.Color.White;
             this.textToPage1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textToPage1.Location = new System.Drawing.Point(178, 4);
-            this.textToPage1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textToPage1.Margin = new System.Windows.Forms.Padding(1);
             this.textToPage1.Name = "textToPage1";
             this.textToPage1.Size = new System.Drawing.Size(39, 21);
             this.textToPage1.TabIndex = 16;
@@ -1569,7 +1569,7 @@
             this.textToDate1.Enabled = false;
             this.textToDate1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textToDate1.Location = new System.Drawing.Point(54, 4);
-            this.textToDate1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textToDate1.Margin = new System.Windows.Forms.Padding(1);
             this.textToDate1.Name = "textToDate1";
             this.textToDate1.Size = new System.Drawing.Size(64, 21);
             this.textToDate1.TabIndex = 14;
@@ -1582,7 +1582,7 @@
             this.textLastDate1.Enabled = false;
             this.textLastDate1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textLastDate1.Location = new System.Drawing.Point(80, 55);
-            this.textLastDate1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textLastDate1.Margin = new System.Windows.Forms.Padding(1);
             this.textLastDate1.Name = "textLastDate1";
             this.textLastDate1.Size = new System.Drawing.Size(64, 21);
             this.textLastDate1.TabIndex = 26;
@@ -1609,7 +1609,7 @@
             this.buttonByCode.Dock = System.Windows.Forms.DockStyle.Left;
             this.buttonByCode.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonByCode.Location = new System.Drawing.Point(80, 190);
-            this.buttonByCode.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonByCode.Margin = new System.Windows.Forms.Padding(1);
             this.buttonByCode.Name = "buttonByCode";
             this.buttonByCode.Size = new System.Drawing.Size(88, 25);
             this.buttonByCode.TabIndex = 14;
@@ -1661,7 +1661,7 @@
             this.textCode.BackColor = System.Drawing.Color.White;
             this.textCode.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textCode.Location = new System.Drawing.Point(80, 1);
-            this.textCode.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textCode.Margin = new System.Windows.Forms.Padding(1);
             this.textCode.Name = "textCode";
             this.textCode.Size = new System.Drawing.Size(55, 21);
             this.textCode.TabIndex = 12;
@@ -1695,7 +1695,7 @@
             "재무상태",
             "투자지표"});
             this.cmbInfo1.Location = new System.Drawing.Point(80, 28);
-            this.cmbInfo1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.cmbInfo1.Margin = new System.Windows.Forms.Padding(1);
             this.cmbInfo1.Name = "cmbInfo1";
             this.cmbInfo1.Size = new System.Drawing.Size(82, 22);
             this.cmbInfo1.TabIndex = 20;
@@ -1720,7 +1720,7 @@
             this.textFromPage1.BackColor = System.Drawing.Color.White;
             this.textFromPage1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textFromPage1.Location = new System.Drawing.Point(178, 4);
-            this.textFromPage1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textFromPage1.Margin = new System.Windows.Forms.Padding(1);
             this.textFromPage1.Name = "textFromPage1";
             this.textFromPage1.Size = new System.Drawing.Size(39, 21);
             this.textFromPage1.TabIndex = 16;
@@ -1732,7 +1732,7 @@
             this.rdoFromPage1.Checked = true;
             this.rdoFromPage1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoFromPage1.Location = new System.Drawing.Point(129, 5);
-            this.rdoFromPage1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoFromPage1.Margin = new System.Windows.Forms.Padding(1);
             this.rdoFromPage1.Name = "rdoFromPage1";
             this.rdoFromPage1.Size = new System.Drawing.Size(53, 18);
             this.rdoFromPage1.TabIndex = 15;
@@ -1747,7 +1747,7 @@
             this.textFromDate1.Enabled = false;
             this.textFromDate1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textFromDate1.Location = new System.Drawing.Point(54, 4);
-            this.textFromDate1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textFromDate1.Margin = new System.Windows.Forms.Padding(1);
             this.textFromDate1.Name = "textFromDate1";
             this.textFromDate1.Size = new System.Drawing.Size(64, 21);
             this.textFromDate1.TabIndex = 14;
@@ -1759,7 +1759,7 @@
             this.rdoFromDate1.Enabled = false;
             this.rdoFromDate1.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.rdoFromDate1.Location = new System.Drawing.Point(4, 5);
-            this.rdoFromDate1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.rdoFromDate1.Margin = new System.Windows.Forms.Padding(1);
             this.rdoFromDate1.Name = "rdoFromDate1";
             this.rdoFromDate1.Size = new System.Drawing.Size(52, 18);
             this.rdoFromDate1.TabIndex = 0;
@@ -1772,11 +1772,11 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Gainsboro;
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label9.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label9.Location = new System.Drawing.Point(392, 296);
             this.label9.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label9.Name = "label9";
-            this.label9.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label9.Padding = new System.Windows.Forms.Padding(1);
             this.label9.Size = new System.Drawing.Size(193, 31);
             this.label9.TabIndex = 5;
             this.label9.Text = "⊙ 미개발";
@@ -1787,11 +1787,11 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Gainsboro;
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label7.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label7.Location = new System.Drawing.Point(2, 296);
             this.label7.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label7.Name = "label7";
-            this.label7.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label7.Padding = new System.Windows.Forms.Padding(1);
             this.label7.Size = new System.Drawing.Size(192, 31);
             this.label7.TabIndex = 4;
             this.label7.Text = "⊙ 추가기능 (HTML)";
@@ -1802,11 +1802,11 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Gainsboro;
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label5.Location = new System.Drawing.Point(197, 296);
             this.label5.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label5.Name = "label5";
-            this.label5.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label5.Padding = new System.Windows.Forms.Padding(1);
             this.label5.Size = new System.Drawing.Size(192, 31);
             this.label5.TabIndex = 3;
             this.label5.Text = "⊙ Excel 기능";
@@ -1817,14 +1817,14 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Gainsboro;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.Location = new System.Drawing.Point(197, 1);
             this.label3.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label3.Padding = new System.Windows.Forms.Padding(1);
             this.label3.Size = new System.Drawing.Size(192, 31);
             this.label3.TabIndex = 2;
-            this.label3.Text = "⊙ 전종목 섹터";
+            this.label3.Text = "[2] 전종목 섹터";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label2
@@ -1832,14 +1832,14 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Gainsboro;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.Location = new System.Drawing.Point(392, 1);
             this.label2.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label2.Name = "label2";
-            this.label2.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label2.Padding = new System.Windows.Forms.Padding(1);
             this.label2.Size = new System.Drawing.Size(193, 31);
             this.label2.TabIndex = 1;
-            this.label2.Text = "⊙ 인덱스 섹터";
+            this.label2.Text = "[3] 인덱스 섹터";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label4
@@ -1847,14 +1847,14 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Gainsboro;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("나눔고딕", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Font = new System.Drawing.Font("나눔고딕", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.Location = new System.Drawing.Point(2, 1);
             this.label4.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label4.Name = "label4";
-            this.label4.Padding = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.label4.Padding = new System.Windows.Forms.Padding(1);
             this.label4.Size = new System.Drawing.Size(192, 31);
             this.label4.TabIndex = 0;
-            this.label4.Text = "⊙ 종목코드 섹터";
+            this.label4.Text = "[1] 종목코드 섹터";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel3
@@ -1864,7 +1864,7 @@
             this.panel3.Controls.Add(this.pnlPath);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(197, 329);
-            this.panel3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel3.Margin = new System.Windows.Forms.Padding(1);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(192, 64);
             this.panel3.TabIndex = 6;
@@ -1873,7 +1873,7 @@
             // 
             this.buttonExcel.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.buttonExcel.Location = new System.Drawing.Point(155, 69);
-            this.buttonExcel.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.buttonExcel.Margin = new System.Windows.Forms.Padding(1);
             this.buttonExcel.Name = "buttonExcel";
             this.buttonExcel.Size = new System.Drawing.Size(88, 24);
             this.buttonExcel.TabIndex = 7;
@@ -1901,7 +1901,7 @@
             this.textKosdaq.BackColor = System.Drawing.Color.White;
             this.textKosdaq.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textKosdaq.Location = new System.Drawing.Point(41, 31);
-            this.textKosdaq.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textKosdaq.Margin = new System.Windows.Forms.Padding(1);
             this.textKosdaq.Name = "textKosdaq";
             this.textKosdaq.Size = new System.Drawing.Size(204, 21);
             this.textKosdaq.TabIndex = 40;
@@ -1912,7 +1912,7 @@
             this.textKospi.BackColor = System.Drawing.Color.White;
             this.textKospi.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.textKospi.Location = new System.Drawing.Point(41, 7);
-            this.textKospi.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textKospi.Margin = new System.Windows.Forms.Padding(1);
             this.textKospi.Name = "textKospi";
             this.textKospi.Size = new System.Drawing.Size(204, 21);
             this.textKospi.TabIndex = 39;
@@ -1937,7 +1937,7 @@
             this.panel6.Controls.Add(this.label1);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(2, 329);
-            this.panel6.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel6.Margin = new System.Windows.Forms.Padding(1);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(192, 64);
             this.panel6.TabIndex = 9;
@@ -1961,7 +1961,7 @@
             this.httpText.BackColor = System.Drawing.Color.White;
             this.httpText.Font = new System.Drawing.Font("나눔고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.httpText.Location = new System.Drawing.Point(11, 25);
-            this.httpText.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.httpText.Margin = new System.Windows.Forms.Padding(1);
             this.httpText.Name = "httpText";
             this.httpText.Size = new System.Drawing.Size(236, 21);
             this.httpText.TabIndex = 0;
@@ -1983,7 +1983,7 @@
             this.panel8.BackColor = System.Drawing.Color.White;
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(392, 329);
-            this.panel8.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel8.Margin = new System.Windows.Forms.Padding(1);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(193, 64);
             this.panel8.TabIndex = 11;
@@ -2095,7 +2095,7 @@
             this.ClientSize = new System.Drawing.Size(842, 472);
             this.Controls.Add(this.tableLayoutPanel2);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Margin = new System.Windows.Forms.Padding(1);
             this.Name = "Client";
             this.Text = "Puff Adder";
             this.Load += new System.EventHandler(this.httpToDB_Load);
