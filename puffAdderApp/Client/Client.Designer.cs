@@ -1811,6 +1811,7 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "⊙ Excel 기능";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label3
             // 
