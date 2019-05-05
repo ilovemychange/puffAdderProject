@@ -8,13 +8,40 @@ namespace PuffAdderApplication.DTO
 {
     class LogDTO
     {
-        private String dbNm;          // DB테이블명
-        private String cateCd;        // 종목코드
-        private int pageNo;           // 페이지번호
-        private String httpAdrs;      // HTTP주소
-        private String memo;          // 메모
-        private String funcNm;        // 함수명
-        private String tradeDt;       // 거래일
+        /// <summary>
+        /// 테이블명
+        /// </summary>
+        private String dbNm;
+
+        /// <summary>
+        /// 종목코드
+        /// </summary>
+        private String cateCd;
+
+        /// <summary>
+        /// 페이지번호
+        /// </summary>
+        private int pageNo;
+
+        /// <summary>
+        /// HTTP주소
+        /// </summary>
+        private String httpAdrs;
+
+        /// <summary>
+        /// 메모내용
+        /// </summary>
+        private String memo;
+
+        /// <summary>
+        /// 함수명
+        /// </summary>
+        private String funcNm;
+
+        /// <summary>
+        /// 거래일
+        /// </summary>
+        private String tradeDt;
 
         /// <summary>
         /// 테이블명
