@@ -95,7 +95,7 @@ namespace PuffAdderApplication.DTO
         }
 
         /// <summary>
-        /// 메모내용
+        /// 메모
         /// </summary>
         /// <param name="memo"></param>
         public void setMemo(String memo)
