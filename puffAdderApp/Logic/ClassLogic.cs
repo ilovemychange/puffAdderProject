@@ -17,7 +17,9 @@ namespace PuffAdderApplication
 {
     class ClassLogic
     {
+
         PuffAdderApplication.DTO.LogDTO logDTO = new PuffAdderApplication.DTO.LogDTO();
+
 
         /// <summary>
         /// KOSPI & KOSDAQ 개별종목 NAVER에서 HTML 코드 조회
