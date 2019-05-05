@@ -16,7 +16,9 @@ namespace PuffAdderApplication.DTO
         private String funcNm;        // 함수명
         private String tradeDt;       // 거래일
 
-        // DB테이블명
+        /// <summary>
+        /// 테이블명
+        /// </summary>
         public void setDbNm(String dbNm)
         {
             this.dbNm = dbNm;
@@ -26,7 +28,10 @@ namespace PuffAdderApplication.DTO
             return this.dbNm;
         }
 
-        // 종목코드
+        /// <summary>
+        /// 종목코드
+        /// </summary>
+        /// <param name="cateCd"></param>
         public void setCateCd(String cateCd)
         {
             this.cateCd = cateCd;
@@ -36,7 +41,10 @@ namespace PuffAdderApplication.DTO
             return this.cateCd;
         }
 
-        // 페이지번호
+        /// <summary>
+        /// 페이지번호
+        /// </summary>
+        /// <param name="pageNo"></param>
         public void setPageNo(int pageNo)
         {
             this.pageNo = pageNo;
@@ -46,7 +54,10 @@ namespace PuffAdderApplication.DTO
             return this.pageNo;
         }
 
-        // HTTP주소
+        /// <summary>
+        /// HTTP주소
+        /// </summary>
+        /// <param name="httpAdrs"></param>
         public void setHttpAdrs(String httpAdrs)
         {
             this.httpAdrs = httpAdrs;
@@ -56,7 +67,10 @@ namespace PuffAdderApplication.DTO
             return this.httpAdrs;
         }
 
-        // 메모
+        /// <summary>
+        /// 메모
+        /// </summary>
+        /// <param name="memo"></param>
         public void setMemo(String memo)
         {
             this.memo = memo;
@@ -66,7 +80,10 @@ namespace PuffAdderApplication.DTO
             return this.memo;
         }
 
-        // 함수명
+        /// <summary>
+        /// 함수명
+        /// </summary>
+        /// <param name="funcNm"></param>
         public void setFuncNm(String funcNm)
         {
             this.funcNm = funcNm;
@@ -76,7 +93,10 @@ namespace PuffAdderApplication.DTO
             return this.funcNm;
         }
 
-        // 함수명
+        /// <summary>
+        /// 거래일
+        /// </summary>
+        /// <param name="tradeDt"></param>
         public void setTradeDt(String tradeDt)
         {
             this.tradeDt = tradeDt;
